@@ -6,10 +6,19 @@
     <description>Recent content in Posts on GhostNDshell</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Mar 2020 02:01:58 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 05 Dec 2020 22:14:26 +0100</lastBuildDate>
     
 	<atom:link href="https://GhostNDshell.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Readteam</title>
+      <link>https://GhostNDshell.github.io/posts/readteam/</link>
+      <pubDate>Sat, 05 Dec 2020 22:14:26 +0100</pubDate>
+      
+      <guid>https://GhostNDshell.github.io/posts/readteam/</guid>
+      <description>This is the red team space</description>
+    </item>
     
     <item>
       <title>Cybersecurity in the sea</title>
