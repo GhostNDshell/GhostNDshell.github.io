@@ -141,15 +141,13 @@ For this guide i used  <em>7zip</em> as I found it to be the easiest way.</p>
 </li>
 <li>
 <p>If the output present relevant directory <em>(it should)</em>, that means you can extract specific files doing.</p>
-<pre><code>  - 7z e file.vmdk desired_file
+<pre><code>  - 7z e file.vmdk desired_file *This will extract desired_file from the .vmdk*
 </code></pre>
-<p><em>This will extract desired_file from the .vmdk</em></p>
 </li>
 <li>
 <p>If you need to have the entire disk simply use.</p>
-<pre><code>  - 7z e file.vmdk
+<pre><code>  - 7z e file.vmdk *This will extract the whole archive*
 </code></pre>
-<p><em>This will extract the whole archive</em></p>
 </li>
 <li>
 <p>The output  should normaly be a <em>.img</em> file, you may have two or more <em>.img</em> file, just use the command
