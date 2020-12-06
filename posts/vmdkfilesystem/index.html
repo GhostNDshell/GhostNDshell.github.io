@@ -135,14 +135,14 @@ For this guide i used  <em>7zip</em> as I found it to be the easiest way.</p>
 <li>
 <p>First of all, you must check if it is possible to list the contents of the vmdk file using 7zip.</p>
 <blockquote>
-<p>7z l file.vmdk</p>
+<p><code>7z l file.vmdk</code></p>
 </blockquote>
 <p><em>tip:</em> You can redirect the output in a text file in order to find specific files <em>(grep)</em>.</p>
 </li>
 <li>
 <p>If the output present relevant directory <em>(it should)</em>, that means you can extract specific files doing.</p>
 <blockquote>
-<p>7z e file.vmdk desired_file
+<p><code>7z e file.vmdk desired_file</code>
 <em>this will extract desired_file from the .vmdk</em></p>
 </blockquote>
 </li>
@@ -157,10 +157,10 @@ For this guide i used  <em>7zip</em> as I found it to be the easiest way.</p>
 <p>The output  should normaly be a <em>.img</em> file, you may have two or more <em>.img</em> file, just use the command
 <code>file</code> to see which one is the fylesystem. Once you did that you can then mount the <em>.img</em> file doing so.</p>
 <blockquote>
-<p>sudo mkdir /mnt/iso</p>
+<p><code>sudo mkdir /mnt/iso</code></p>
 </blockquote>
 <blockquote>
-<p>sudo mount -o loop /path/to/the/image/file /mnt/iso</p>
+<p><code>sudo mount -o loop /path/to/the/image/file /mnt/iso</code></p>
 </blockquote>
 </li>
 <li>
