@@ -135,13 +135,11 @@ For this guide i used  <em>7zip</em> as I found it to be the easiest way.</p>
 <li>
 <p>First of all, you must check if it is possible to list the contents of the vmdk file using 7zip.</p>
 <p><code>7z l file.vmdk</code></p>
-</li>
-</ul>
 <p><em>tip:</em> You can redirect the output in a text file in order to find specific files <em>(grep)</em>.</p>
-<ul>
+</li>
 <li>
 <p>If the output present relevant directory <em>(it should)</em>, that means you can extract specific files doing.</p>
-<p><code>7z e file.vmdk desired_file  *this will extract desired_file from the .vmdk*</code></p>
+<p><code>7z e file.vmdk desired_file</code>  <em>this will extract desired_file from the .vmdk</em></p>
 </li>
 <li>
 <p>If you need to have the entire disk simply use.</p>
@@ -149,12 +147,12 @@ For this guide i used  <em>7zip</em> as I found it to be the easiest way.</p>
 </li>
 <li>
 <p>The output  should normaly be a <em>.img</em> file, you may have two or more <em>.img</em> file, just use the command
-<em>file</em> to see which one is the fylesystem. Once you did that you can then mount the .img file doing so.</p>
-<p><code>sudo mkdir /mnt/iso</code>
-<code>sudo mount -o loop /path/to/the/image/file /mnt/iso</code></p>
+<code>file</code> to see which one is the fylesystem. Once you did that you can then mount the <em>.img</em> file doing so.</p>
+<p><code>sudo mkdir /mnt/iso</code></p>
+<p><code>sudo mount -o loop /path/to/the/image/file /mnt/iso</code></p>
 </li>
 <li>
-<p>You can check everything went well by running <em>mount</em> , <em>df -H</em> or <em>ls -l  /mnt/iso</em>.</p>
+<p>You can check everything went well by running <code>mount</code> , <code>df -H</code> or <code>ls -l  /mnt/iso</code>.</p>
 </li>
 </ul>
 <p>There you go ! a filesystem all you can break&hellip; or use for forensic.</p>
