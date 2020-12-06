@@ -3,15 +3,18 @@
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Blueteam - GhostNDshell</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta property="og:title" content="Blueteam" />
-<meta property="og:description" content="  Cybersecurity in the seaMar 18, 2020 How to analyze an Email header Coming soon  " />
+	<title>Access the file system from a vmdk file - GhostNDshell</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="Access the file system from a vmdk file" />
+<meta property="og:description" content="Here is a mini guide on how to access the file systeme in a vmdk file
+This can be done in many ways, using vmware-mount, QENU, /dev/loop and guestmount or 7zip" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://GhostNDshell.github.io/posts/blueteam/" />
-
+<meta property="og:url" content="https://GhostNDshell.github.io/posts/vmdkfilesystem/" />
+<meta property="article:published_time" content="2020-12-06T14:50:48+01:00" />
+<meta property="article:modified_time" content="2020-12-06T14:50:48+01:00" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Blueteam"/>
-<meta name="twitter:description" content="  Cybersecurity in the seaMar 18, 2020 How to analyze an Email header Coming soon  "/>
+<meta name="twitter:title" content="Access the file system from a vmdk file"/>
+<meta name="twitter:description" content="Here is a mini guide on how to access the file systeme in a vmdk file
+This can be done in many ways, using vmware-mount, QENU, /dev/loop and guestmount or 7zip"/>
 <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" media="screen" href="https://GhostNDshell.github.io/css/normalize.css" />
@@ -122,15 +125,29 @@
 
 
 		<div class="post-header">
-			<h1 class="title">Blueteam</h1>
+			<h1 class="title">Access the file system from a vmdk file</h1>
 			
 		</div>
 
 		<div class="markdown">
-			 <ul>
-   <li class="post-header"><a href="/posts/cybersecurytyinthesea">Cybersecurity in the sea</a><span class="meta">Mar 18, 2020</span></li>
-   <li><a>How to analyze an Email header </a><span class="meta">Coming soon</span></li>
- </ul>
+			<p>Here is a mini guide on how to access the file systeme in a vmdk file</p>
+<p>This can be done in many ways, using vmware-mount, QENU, /dev/loop and   guestmount  or 7zip<br>
+for this guide we will be using 7zip as I find it to be the easiest way.</p>
+<p>First of all you&rsquo;ll have to check if you can list the contents of the vmdk file using 7zip</p>
+<pre><code>  ` 7z l file.vmdk  / you can redirect the output in a text file in order to find specific files (grep)`
+</code></pre>
+<p>If the output present relevant directory (it should), that means that you can extract specific files doing</p>
+<pre><code>  &gt;&gt; 7z e file.vmdk desired_file  / this will extract desired_file from the .vmdk
+</code></pre>
+<p>If you need to have the entire disk simply use</p>
+<pre><code>  &gt;&gt; 7z e file.vmdk  / This will extract the whole archive
+</code></pre>
+<p>The output could should normaly be a .img file, you may have two or more .img file, just use the command
+&ldquo;file&rdquo; to see which one is the fylesystem. Once you did that you can then mount the .img file doing so</p>
+<pre><code>  &gt;&gt; sudo mkdir /mnt/iso
+  &gt;&gt; sudo mount -o loop /path/to/the/image/file /mnt/iso
+</code></pre>
+<p>You can verify it, by running mount OR df -H OR ls -l  /mnt/iso (you can then umount it using  umount /mnt/iso)</p>
 
 		</div>
 
