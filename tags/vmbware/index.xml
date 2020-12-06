@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vmbware on GhostNDshell</title>
+    <link>https://GhostNDshell.github.io/tags/vmbware/</link>
+    <description>Recent content in vmbware on GhostNDshell</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 06 Dec 2020 14:50:48 +0100</lastBuildDate>
+    
+	<atom:link href="https://GhostNDshell.github.io/tags/vmbware/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Access file system from a vmdk file</title>
+      <link>https://GhostNDshell.github.io/posts/vmdkfilesystem/</link>
+      <pubDate>Sun, 06 Dec 2020 14:50:48 +0100</pubDate>
+      
+      <guid>https://GhostNDshell.github.io/posts/vmdkfilesystem/</guid>
+      <description>Here is a mini guide on how to access the file system from a vmdk file using 7zip
+This can be done in many ways, using vmware-mount, QENU, /dev/loop and guestmount or 7zip</description>
+    </item>
+    
+  </channel>
+</rss>
