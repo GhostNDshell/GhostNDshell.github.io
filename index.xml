@@ -12,15 +12,6 @@
     
     
     <item>
-      <title>Devteam</title>
-      <link>https://GhostNDshell.github.io/posts/devteam/</link>
-      <pubDate>Sat, 05 Dec 2020 22:17:13 +0100</pubDate>
-      
-      <guid>https://GhostNDshell.github.io/posts/devteam/</guid>
-      <description>This is the Dev team space</description>
-    </item>
-    
-    <item>
       <title></title>
       <link>https://GhostNDshell.github.io/home/</link>
       <pubDate>Sat, 28 Nov 2020 20:08:11 +0100</pubDate>
@@ -59,12 +50,21 @@
     </item>
     
     <item>
+      <title>Devteam</title>
+      <link>https://GhostNDshell.github.io/posts/devteam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://GhostNDshell.github.io/posts/devteam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Redteam</title>
       <link>https://GhostNDshell.github.io/posts/redteam/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://GhostNDshell.github.io/posts/redteam/</guid>
-      <description>This is the red team space</description>
+      <description></description>
     </item>
     
   </channel>
