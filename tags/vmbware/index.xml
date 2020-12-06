@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>Accessing file system from a vmdk file</title>
+      <title>Accessing filesystem from a vmdk file</title>
       <link>https://GhostNDshell.github.io/posts/vmdkfilesystem/</link>
       <pubDate>Sun, 06 Dec 2020 14:50:48 +0100</pubDate>
       
       <guid>https://GhostNDshell.github.io/posts/vmdkfilesystem/</guid>
-      <description>Here is a mini guide on how to access the file system from a vmdk file using 7zip.This can be done in many ways, using vmware-mount, QENU, /dev/loop and guestmount or 7zip.</description>
+      <description>Here is a mini guide on how to access the filesystem from a vmdk file using 7zip.This can be done in many ways, using vmware-mount, QENU, /dev/loop and guestmount or 7zip For this guide i used 7zip as I found it to be the easiest way.</description>
     </item>
     
   </channel>
