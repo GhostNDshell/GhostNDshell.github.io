@@ -21,24 +21,6 @@
     </item>
     
     <item>
-      <title>Blueteam</title>
-      <link>https://GhostNDshell.github.io/posts/blueteam/</link>
-      <pubDate>Sat, 05 Dec 2020 22:15:22 +0100</pubDate>
-      
-      <guid>https://GhostNDshell.github.io/posts/blueteam/</guid>
-      <description>This is the blue team space</description>
-    </item>
-    
-    <item>
-      <title>Readteam</title>
-      <link>https://GhostNDshell.github.io/posts/redteam/</link>
-      <pubDate>Sat, 05 Dec 2020 22:14:26 +0100</pubDate>
-      
-      <guid>https://GhostNDshell.github.io/posts/redteam/</guid>
-      <description>This is the red team space</description>
-    </item>
-    
-    <item>
       <title></title>
       <link>https://GhostNDshell.github.io/home/</link>
       <pubDate>Sat, 28 Nov 2020 20:08:11 +0100</pubDate>
@@ -65,6 +47,25 @@
       
       <guid>https://GhostNDshell.github.io/projects/</guid>
       <description>Whiteboard - C The goal of the project is to write a “whiteboard” application, where a community of users could interact and exchange messages about common interests, by creating topics and threads.</description>
+    </item>
+    
+    <item>
+      <title>Blueteam</title>
+      <link>https://GhostNDshell.github.io/posts/blueteam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://GhostNDshell.github.io/posts/blueteam/</guid>
+      <description>This is the blue team space
+ Cybersecurity in the sea  </description>
+    </item>
+    
+    <item>
+      <title>Readteam</title>
+      <link>https://GhostNDshell.github.io/posts/redteam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://GhostNDshell.github.io/posts/redteam/</guid>
+      <description>This is the red team space</description>
     </item>
     
   </channel>

@@ -21,30 +21,31 @@
     </item>
     
     <item>
-      <title>Blueteam</title>
-      <link>https://GhostNDshell.github.io/posts/blueteam/</link>
-      <pubDate>Sat, 05 Dec 2020 22:15:22 +0100</pubDate>
-      
-      <guid>https://GhostNDshell.github.io/posts/blueteam/</guid>
-      <description>This is the blue team space</description>
-    </item>
-    
-    <item>
-      <title>Readteam</title>
-      <link>https://GhostNDshell.github.io/posts/redteam/</link>
-      <pubDate>Sat, 05 Dec 2020 22:14:26 +0100</pubDate>
-      
-      <guid>https://GhostNDshell.github.io/posts/redteam/</guid>
-      <description>This is the red team space</description>
-    </item>
-    
-    <item>
       <title>Cybersecurity in the sea</title>
       <link>https://GhostNDshell.github.io/posts/cybersecurytyinthesea/</link>
       <pubDate>Wed, 18 Mar 2020 02:01:58 +0530</pubDate>
       
       <guid>https://GhostNDshell.github.io/posts/cybersecurytyinthesea/</guid>
       <description>Index  Introduction Customer Segment Problem Statement Existing Alternatives Solution Unfair advantage Key Metrics References   DISCLAIMER: This research document has been written by me, Benwick and another classmate whose name I do not mention for privacy reasons.</description>
+    </item>
+    
+    <item>
+      <title>Blueteam</title>
+      <link>https://GhostNDshell.github.io/posts/blueteam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://GhostNDshell.github.io/posts/blueteam/</guid>
+      <description>This is the blue team space
+ Cybersecurity in the sea  </description>
+    </item>
+    
+    <item>
+      <title>Readteam</title>
+      <link>https://GhostNDshell.github.io/posts/redteam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://GhostNDshell.github.io/posts/redteam/</guid>
+      <description>This is the red team space</description>
     </item>
     
   </channel>

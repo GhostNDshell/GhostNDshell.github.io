@@ -13,16 +13,6 @@
   </url>
   
   <url>
-    <loc>https://GhostNDshell.github.io/posts/blueteam/</loc>
-    <lastmod>2020-12-05T22:15:22+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://GhostNDshell.github.io/posts/redteam/</loc>
-    <lastmod>2020-12-05T22:14:26+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://GhostNDshell.github.io/home/</loc>
     <lastmod>2020-11-28T20:08:11+01:00</lastmod>
   </url>
@@ -43,7 +33,7 @@
   </url>
   
   <url>
-    <loc>https://GhostNDshell.github.io/tags/soc/</loc>
+    <loc>https://GhostNDshell.github.io/tags/s.o.c/</loc>
     <lastmod>2020-03-18T02:01:58+05:30</lastmod>
   </url>
   
@@ -61,11 +51,19 @@
   </url>
   
   <url>
+    <loc>https://GhostNDshell.github.io/posts/blueteam/</loc>
+  </url>
+  
+  <url>
     <loc>https://GhostNDshell.github.io/tags/c/</loc>
   </url>
   
   <url>
     <loc>https://GhostNDshell.github.io/tags/python/</loc>
+  </url>
+  
+  <url>
+    <loc>https://GhostNDshell.github.io/posts/redteam/</loc>
   </url>
   
 </urlset>
