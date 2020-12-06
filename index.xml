@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Access file system from a vmdk file</title>
+      <title>Accessing file system from a vmdk file</title>
       <link>https://GhostNDshell.github.io/posts/vmdkfilesystem/</link>
       <pubDate>Sun, 06 Dec 2020 14:50:48 +0100</pubDate>
       
@@ -56,7 +56,7 @@ This can be done in many ways, using vmware-mount, QENU, /dev/loop and guestmoun
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://GhostNDshell.github.io/posts/blueteam/</guid>
-      <description>  Cybersecurity in the seaMar 18, 2020 Accessing the file system from a vmdk file using 7zip Dec 06, 2020  </description>
+      <description>  Cybersecurity in the seaNov 18, 2020 Accessing the file system from a vmdk file using 7zip Dec 06, 2020  </description>
     </item>
     
     <item>
