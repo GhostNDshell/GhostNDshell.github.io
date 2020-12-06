@@ -135,19 +135,19 @@ For this guide i used  <em>7zip</em> as I found it to be the easiest way.</p>
 <ul>
 <li>
 <p>First of all, you must check if it is possible to list the contents of the vmdk file using 7zip.</p>
-<pre><code>  7z l file.vmdk
+<pre><code>  - 7z l file.vmdk
 </code></pre>
 <p><strong>tip:</strong> You can redirect the output in a text file in order to find specific files <em>(grep)</em>.</p>
 </li>
 <li>
 <p>If the output present relevant directory <em>(it should)</em>, that means you can extract specific files doing.</p>
-<pre><code>  7z e file.vmdk desired_file
+<pre><code>  - 7z e file.vmdk desired_file
 </code></pre>
 <p><em>This will extract desired_file from the .vmdk</em></p>
 </li>
 <li>
 <p>If you need to have the entire disk simply use.</p>
-<pre><code>  7z e file.vmdk
+<pre><code>  - 7z e file.vmdk
 </code></pre>
 <p><em>This will extract the whole archive</em></p>
 </li>
