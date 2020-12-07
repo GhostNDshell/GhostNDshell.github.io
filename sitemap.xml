@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://GhostNDshell.github.io/</loc>
+    <lastmod>2020-12-07T02:41:31+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://GhostNDshell.github.io/research/</loc>
+    <lastmod>2020-12-07T02:41:31+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://GhostNDshell.github.io/posts/vmdkfilesystem/</loc>
     <lastmod>2020-12-06T14:50:48+01:00</lastmod>
   </url>
@@ -28,16 +38,6 @@
   </url>
   
   <url>
-    <loc>https://GhostNDshell.github.io/home/</loc>
-    <lastmod>2020-11-28T20:08:11+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://GhostNDshell.github.io/</loc>
-    <lastmod>2020-11-28T20:08:11+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://GhostNDshell.github.io/tags/blockchain/</loc>
     <lastmod>2020-10-18T02:01:58+05:30</lastmod>
   </url>
@@ -53,6 +53,11 @@
   </url>
   
   <url>
+    <loc>https://GhostNDshell.github.io/about/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://GhostNDshell.github.io/projects/</loc>
   </url>
   
@@ -61,7 +66,7 @@
   </url>
   
   <url>
-    <loc>https://GhostNDshell.github.io/posts/blueteam/</loc>
+    <loc>https://GhostNDshell.github.io/blueteam/</loc>
   </url>
   
   <url>
@@ -69,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://GhostNDshell.github.io/posts/devteam/</loc>
+    <loc>https://GhostNDshell.github.io/devteam/</loc>
   </url>
   
   <url>
@@ -77,7 +82,7 @@
   </url>
   
   <url>
-    <loc>https://GhostNDshell.github.io/posts/redteam/</loc>
+    <loc>https://GhostNDshell.github.io/redteam/</loc>
   </url>
   
 </urlset>
