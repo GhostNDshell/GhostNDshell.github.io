@@ -6,9 +6,73 @@
     <description>Recent content on reSuper</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 13 Dec 2020 09:31:52 -0800</lastBuildDate>
     
 	<atom:link href="https://GhostNDshell.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Resources</title>
+      <link>https://GhostNDshell.github.io/resources/</link>
+      <pubDate>Sun, 13 Dec 2020 10:27:47 -0800</pubDate>
+      
+      <guid>https://GhostNDshell.github.io/resources/</guid>
+      <description>  Resources   </description>
+    </item>
+    
+    <item>
+      <title>Researches</title>
+      <link>https://GhostNDshell.github.io/researches/</link>
+      <pubDate>Sun, 13 Dec 2020 09:46:52 -0800</pubDate>
+      
+      <guid>https://GhostNDshell.github.io/researches/</guid>
+      <description>  Cybersecurity in the seaNov 18, 2020    </description>
+    </item>
+    
+    <item>
+      <title>Fyle system from a mdk file</title>
+      <link>https://GhostNDshell.github.io/posts/vmdkfilesystem/</link>
+      <pubDate>Sun, 13 Dec 2020 09:31:52 -0800</pubDate>
+      
+      <guid>https://GhostNDshell.github.io/posts/vmdkfilesystem/</guid>
+      <description>vmdk Filesystem  Here is a mini guide on how to access the filesystem from a vmdk file using 7zip.This can be done in many ways, using vmware-mount, QENU, /dev/loop and guestmount or 7zip For this guide i used 7zip as I found it to be the easiest way.</description>
+    </item>
+    
+    <item>
+      <title>Cybersecurity in the sea</title>
+      <link>https://GhostNDshell.github.io/posts/cybersecurityinthesea/</link>
+      <pubDate>Sun, 13 Dec 2020 09:31:38 -0800</pubDate>
+      
+      <guid>https://GhostNDshell.github.io/posts/cybersecurityinthesea/</guid>
+      <description>CyberSecurity in the sea   Index  Introduction Customer Segment Problem Statement Existing Alternatives Solution Unfair advantage Key Metrics References hr DISCLAIMER: This research document has been written by me, Benwick and another classmate whose name I do not mention for privacy reasons.</description>
+    </item>
+    
+    <item>
+      <title>Dev</title>
+      <link>https://GhostNDshell.github.io/devteam/</link>
+      <pubDate>Sun, 13 Dec 2020 09:31:06 -0800</pubDate>
+      
+      <guid>https://GhostNDshell.github.io/devteam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blue team</title>
+      <link>https://GhostNDshell.github.io/blueteam/</link>
+      <pubDate>Sun, 13 Dec 2020 09:31:00 -0800</pubDate>
+      
+      <guid>https://GhostNDshell.github.io/blueteam/</guid>
+      <description> Mini guide  Accessing the file system from a vmdk file using 7zip Dec 06, 2020   </description>
+    </item>
+    
+    <item>
+      <title>Red team</title>
+      <link>https://GhostNDshell.github.io/redteam/</link>
+      <pubDate>Sun, 13 Dec 2020 09:30:55 -0800</pubDate>
+      
+      <guid>https://GhostNDshell.github.io/redteam/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title></title>
