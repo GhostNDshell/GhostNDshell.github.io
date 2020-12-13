@@ -1,86 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>reSUper</title>
+    <title>reSuper</title>
     <link>https://GhostNDshell.github.io/</link>
-    <description>Recent content on reSUper</description>
+    <description>Recent content on reSuper</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Dec 2020 02:41:31 +0100</lastBuildDate>
     
 	<atom:link href="https://GhostNDshell.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Research</title>
-      <link>https://GhostNDshell.github.io/research/</link>
-      <pubDate>Mon, 07 Dec 2020 02:41:31 +0100</pubDate>
-      
-      <guid>https://GhostNDshell.github.io/research/</guid>
-      <description> Cybersecurity in the seaNov 18, 2020  </description>
-    </item>
-    
-    <item>
-      <title>Accessing filesystem from a vmdk file</title>
-      <link>https://GhostNDshell.github.io/posts/vmdkfilesystem/</link>
-      <pubDate>Sun, 06 Dec 2020 14:50:48 +0100</pubDate>
-      
-      <guid>https://GhostNDshell.github.io/posts/vmdkfilesystem/</guid>
-      <description>Here is a mini guide on how to access the filesystem from a vmdk file using 7zip.This can be done in many ways, using vmware-mount, QENU, /dev/loop and guestmount or 7zip For this guide i used 7zip as I found it to be the easiest way.</description>
-    </item>
-    
-    <item>
-      <title>Cybersecurity in the sea</title>
-      <link>https://GhostNDshell.github.io/posts/cybersecurytyinthesea/</link>
-      <pubDate>Sun, 18 Oct 2020 02:01:58 +0530</pubDate>
-      
-      <guid>https://GhostNDshell.github.io/posts/cybersecurytyinthesea/</guid>
-      <description>Index  Introduction Customer Segment Problem Statement Existing Alternatives Solution Unfair advantage Key Metrics References   DISCLAIMER: This research document has been written by me, Benwick and another classmate whose name I do not mention for privacy reasons.</description>
-    </item>
-    
-    <item>
       <title></title>
       <link>https://GhostNDshell.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 19 Apr 2019 21:37:58 +0530</pubDate>
       
       <guid>https://GhostNDshell.github.io/about/</guid>
-      <description>About me Hi! I&amp;rsquo;m a Cybersecurity student, at La Sapienza University of Rome. I will graduate in july 2021. I came from a Computer science background always at La Sapienza.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://GhostNDshell.github.io/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://GhostNDshell.github.io/projects/</guid>
-      <description>Whiteboard - C The goal of the project is to write a “whiteboard” application, where a community of users could interact and exchange messages about common interests, by creating topics and threads.</description>
-    </item>
-    
-    <item>
-      <title>Blueteam</title>
-      <link>https://GhostNDshell.github.io/blueteam/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://GhostNDshell.github.io/blueteam/</guid>
-      <description>  Accessing the file system from a vmdk file using 7zip Dec 06, 2020  </description>
-    </item>
-    
-    <item>
-      <title>Devteam</title>
-      <link>https://GhostNDshell.github.io/devteam/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://GhostNDshell.github.io/devteam/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Redteam</title>
-      <link>https://GhostNDshell.github.io/redteam/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://GhostNDshell.github.io/redteam/</guid>
-      <description></description>
+      <description>About me  Hi! I&amp;rsquo;m a Cybersecurity student, at La Sapienza University of Rome. I will graduate in july 2021.</description>
     </item>
     
   </channel>

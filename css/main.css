@@ -1,5 +1,5 @@
 body {
-    font-family: overpass;
+    font-family: monospace;
     font-weight: 400;
     color: #333;
     line-height: 1.6;
@@ -192,7 +192,15 @@ ul {
 }
 
 pre code {
-  display: inline-block;
+  margin-left: 1rem;
+  font-style: normal;
+  font-size: 1rem;
+  font-family: Georgia;
+  border-left: 3px solid;
+  border-color: #a00;
+  background-color: whitesmoke;
+  padding-left: 20px;
+  padding-right: 20px
 }
 
 
